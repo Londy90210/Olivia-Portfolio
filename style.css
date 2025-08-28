@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'olivia';
+    src: url(/home/mulondoli1/Desktop/Coding-Material/Comfortaa,Libre_Baskerville,M_PLUS_Rounded_1c,Nunito/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'londy';
+    src: url(/home/mulondoli1/Desktop/Coding-Material/Comfortaa,Libre_Baskerville,M_PLUS_Rounded_1c,Nunito/Nunito/static/Nunito-Mediumitalic.ttf);
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff7d8;
+    overflow: hidden;
+    filter: brightness(1) contrast(130%) saturate(110%) ;
+    min-height: 100vh;
+
+
+}
+
+nav li {
+    list-style: none;
+    float: left;
+}
+
+nav li a {
+    text-decoration: none;
+    margin-left: 60px;
+    position: relative;
+    top: 47px;
+    font-size: 17px;
+    color: #ffffff;
+    font: bold;
+    display: flex;
+    justify-content: center;
+    transform: translateX(370px);
+    
+}
+
+
+.name {
+    font-family: 'olivia';
+    font-size: 80px;
+    position: relative;
+    top: 50px;
+    right: 460px;
+    float: left;
+
+}
+
+.status {
+    font-family: 'olivia';
+    position: absolute;
+    bottom: 130px;
+    right: 30px;
+    transform: rotate(90deg);
+    font-size: 80px;
+}
+
+
+.Olivia {
+    display: block;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    bottom: 70px;
+    right: 470px;
+  
+  
+
+
+}
+
+p {
+    font-family: '';
+    position: absolute;
+    bottom: 120px;
+    left: 50px;
+}
+
+.small-box {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    clip-path: circle(50%);
+    position: absolute;
+    bottom: 215px;
+    left: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.name:hover {
+    transform: scale(1.05);
+}
+.small-box:hover {
+    transform: scale(1.1);
+}
